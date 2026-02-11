@@ -29,8 +29,9 @@ int main() {
             leftClick();
         }
 
-        Sleep(1); // prevents 100% CPU usage
+        Sleep(1); // prevents 100% CPU usage | remove if you want 100% CPU usage, probably will max out a cpu core.
     }
 
     return 0;
 }
+
